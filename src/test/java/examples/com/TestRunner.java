@@ -2,7 +2,7 @@ package examples.com;
 
 import com.intuit.karate.junit5.Karate;
 
-class CydeoRunner {
+class TestRunner {
 
     @Karate.Test
     Karate testFeatures() {
