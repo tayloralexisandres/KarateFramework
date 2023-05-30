@@ -22,4 +22,8 @@ Feature: Simple Karate scripts
     }
     """
     * print oneSpartan.gender
+    * def fourSpartans = read("classpath:examples/data/spartans.json")
+    * print fourSpartans
+    * print fourSpartans[2].name
+    # how to reach inside json arrays
 
