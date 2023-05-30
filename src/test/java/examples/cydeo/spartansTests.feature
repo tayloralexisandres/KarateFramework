@@ -21,3 +21,7 @@ Scenario: Get one spartan and verify
     And match each response.content[*].gender == 'Female'
 
   Scenario: POST a spartan by using spartan generator JAVA class file
+    * def SpartanDG = Java.type("examples.utilities.SpartanDataGenerator")
+    * def newSpartan = SpartanDG.createSpartan()
+    # returns MAP object, Karate automatically turns it into JSON object
+    * print newSpartan.name
