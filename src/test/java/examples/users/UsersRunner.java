@@ -6,7 +6,7 @@ class UsersRunner {
     
     @Karate.Test
     Karate testUsers() {
-        return Karate.run("classpath:examples/cydeo/assertionsExamples.feature").tags("@wip").relativeTo(getClass());
+        return Karate.run("classpath:examples/com/assertionsExamples.feature").tags("@wip").relativeTo(getClass());
     }    
 
 }

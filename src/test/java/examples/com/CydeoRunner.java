@@ -1,4 +1,4 @@
-package examples.cydeo;
+package examples.com;
 
 import com.intuit.karate.junit5.Karate;
 
