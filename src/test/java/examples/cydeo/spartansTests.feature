@@ -19,3 +19,5 @@ Scenario: Get one spartan and verify
     When method get
     Then status 200
     And match each response.content[*].gender == 'Female'
+
+  Scenario: POST a spartan by using spartan generator JAVA class file
