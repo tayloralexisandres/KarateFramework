@@ -8,7 +8,7 @@ Feature: Simple Karate scripts
     * print name,"is",age,"years old"
     # Mike is 30 years old
     # , concatenate variables and strings and inserts a space
-  @wip
+
   Scenario: JSON objects, first class citizens of Karate Framework
     * def student = {'name': 'Oscar', 'owe_tuition': false}
     * print student.name
